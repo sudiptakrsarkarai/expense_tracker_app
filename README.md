@@ -1,42 +1,85 @@
-# Expense Tracker App
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
 
-Welcome to Expense Tracker App! This Flutter application helps you efficiently track your expenses, manage your budget, and stay organized with your finances.
+        h1 {
+            color: #333;
+        }
 
-![Expense Tracker App Demo](demo.gif)
+        p {
+            margin-bottom: 20px;
+        }
 
-## Features
+        ul {
+            margin-bottom: 20px;
+        }
 
-- **Track Expenses**: Easily record your expenses with just a few taps.
-- **Budget Management**: Set budgets for different categories and monitor your spending.
-- **Expense Categories**: Categorize your expenses for better organization.
-- **Visual Representation**: View your expenses in charts and graphs for better understanding.
+        li {
+            margin-bottom: 10px;
+        }
 
-## How to Use
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/your_username/expense_tracker_app.git
-
-## Getting Started
-
-1. **Clone the Repository**: Start by cloning this repository to your local machine using `git clone https://github.com/sudiptakrsarkarai/expense_tracker_app`.
-2. **Navigate to the Project Directory**: Once cloned, navigate to the project directory using `cd expense_tracker_app`.
-3. **Install Dependencies**: Run `flutter pub get` to install all the necessary dependencies.
-4. **Launch the App**: Connect your device or start an emulator/simulator, then run `flutter run` to launch the application.
-
----
-
-## Contributions Welcome!
-
-We believe in the power of community-driven development. If you have ideas for new features, spot a bug, or simply want to lend a hand, don't hesitate to get involved!
-
-## License
-
-This project is licensed under the GPL License. For details, see the [LICENSE](LICENSE) file.
-
----
-
-<p align="center">
-  Crafted with passion by [Sudipta Kumar Sarkar](https://github.com/sudiptakrsarkarai)
-</p>
+        .highlight {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Expense Tracker App</h1>
+    <p>Welcome to the Expense Tracker App repository! This repository hosts a simple yet efficient expense tracking application developed using Flutter. With this app, you can effortlessly manage your expenses, keep track of your spending habits, and maintain a healthy financial lifestyle.</p>
+    
+    <h2>Features</h2>
+    <ul>
+        <li>User-Friendly Interface: The app offers an intuitive user interface that makes it easy for users to navigate and record their expenses.</li>
+        <li>Expense Categories: Categorize your expenses to better understand where your money is going. Categories include groceries, transportation, bills, entertainment, etc.</li>
+        <li>Expense History: View your past expenses and track your spending over time.</li>
+        <li>Budget Management: Set budgets for different expense categories to ensure you stay within your financial limits.</li>
+        <li>Currency Support: The app supports multiple currencies, making it suitable for users across the globe.</li>
+        <li>Data Security: Your financial data is securely stored on your device, ensuring your privacy.</li>
+    </ul>
+    
+    <h2>Getting Started</h2>
+    <p>To get started with the Expense Tracker App, follow these steps:</p>
+    <div class="highlight">
+        <ol>
+            <li><strong>Clone the Repository:</strong> Clone this repository to your local machine using:</li>
+            <code>git clone https://github.com/yourusername/expense-tracker-app.git</code>
+            
+            <li><strong>Install Dependencies:</strong> Navigate into the cloned directory and install the dependencies using:</li>
+            <code>cd expense-tracker-app</code><br>
+            <code>flutter pub get</code>
+            
+            <li><strong>Run the App:</strong> Connect your device/emulator and run the app using:</li>
+            <code>flutter run</code>
+        </ol>
+    </div>
+    
+    <h2>Contributing</h2>
+    <p>Contributions are welcome! If you have any ideas, suggestions, or find any issues with the app, feel free to open an issue or create a pull request. Let's make expense tracking even better together!</p>
+    
+    <h2>License</h2>
+    <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+    
+    <h2>Contact</h2>
+    <p>If you have any questions or need assistance, feel free to contact the project maintainer:</p>
+    <p><strong>Sudipta Sarkar</strong><br>
+    GitHub: <a href="https://github.com/sudiptakrsarkarai">Sudipta Sarkar</a><br>
+    Email: sudiptakumarsarkar.adtu@gmail.com</p>
+    
+    <footer>
+        <p>Happy Expense Tracking! 📊💰</p>
+    </footer>
+</body>
+</html>
