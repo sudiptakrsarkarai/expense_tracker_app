@@ -1,7 +1,7 @@
 # Expense Tracker Flutter App
 
 <div align="center">
-  **Dark Mode**
+  <h2>Dark Mode</h2>
   <img src="expense_tracker_logo.png" alt="Expense Tracker Logo" width="200">
   <img src="expense_list.png" alt="Expense List Screenshot" width="200">
   <img src="add_expense.png" alt="Add Expense Screenshot" width="200">
