@@ -37,7 +37,7 @@ We believe in collaborative development. Whether you have ideas for new features
 
 ## License
 
-This project is licensed under the MIT License. For details, see the [LICENSE](LICENSE) file.
+This project is licensed under the GPL License. For details, see the [LICENSE](LICENSE) file.
 
 ---
 
